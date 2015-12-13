@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.alex.mirash.demo.screens.fan.maze.MazeActivity"
+    >
+    <com.alex.mirash.demo.screens.fan.maze.arena.MazeArena
+        android:id="@+id/maze_arena"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </com.alex.mirash.demo.screens.fan.maze.arena.MazeArena>
+</FrameLayout>

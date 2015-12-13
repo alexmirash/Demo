@@ -1,0 +1,37 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity"
+    >
+    <com.alex.mirash.demo.base.ParallaxView
+        xmlns:parallax="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/parallax_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        parallax:parallaxValue="@dimen/parallax_value"
+        >
+        <fragment
+            android:id="@+id/content_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.alex.mirash.demo.content.ContentFragment"
+            />
+        <FrameLayout
+            android:id="@+id/settings_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </com.alex.mirash.demo.base.ParallaxView>
+    <fragment
+        android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="com.alex.mirash.demo.menu.NavigationMenuFragment"
+        tools:layout="@layout/fragment_navigation_drawer"
+        />
+</android.support.v4.widget.DrawerLayout>

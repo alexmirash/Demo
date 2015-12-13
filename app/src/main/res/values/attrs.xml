@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandButton">
+        <attr name="expandedResourceId" format="integer"/>
+        <attr name="collapsedResourceId" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxView">
+        <attr name="parallaxValue" format="float"/>
+    </declare-styleable>
+</resources>

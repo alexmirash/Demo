@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".NavigationDrawerFragment"
+             android:background="@android:color/black"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#33eeee"
+        android:text="Happy New Year!!!"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        />
+    <com.alex.mirash.demo.screens.snowfall.SnowFallSurfaceView
+        android:id="@+id/snow_fall_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_color">#000000</color>
+    <color name="menu_item_separator_color">#404050</color><!--#101010-->
+
+    <color name="dario3_b1">#191919</color>
+    <color name="dario3_b2">#ffffff</color>
+    <color name="dario3_b4">#4d191919</color>
+    <color name="dario3_b5">#dee1e3</color>
+    <color name="dario3_b6">#ff9637</color>
+    <color name="dario3_b7">#aad006</color>
+    <color name="dario3_b8">#fafafa</color>
+    <color name="dario3_b9">#c8dae8</color>
+    <color name="dario3_b10">#e5eef4</color>
+    <color name="dario3_b11">#b8cfe1</color>
+    <color name="dario3_b12">#6a4f6b</color>
+    <color name="dario3_b13">#e84f35</color>
+    <color name="dario3_b14">#f5f6f6</color>
+    <color name="dario3_b15">#dce8f2</color>
+    <color name="dario3_b16">#d3d4d4</color>
+    <color name="dario3_b17">#c3beb9</color>
+    <color name="dario3_b18">#eef7fe</color>
+    <color name="dario3_b19">#e9e4de</color>
+    <color name="dario3_b20">#8e9fae</color>
+
+    <color name="dario3_t1">#dfdfdf</color>
+    <color name="dario3_t2">#a7a7a7</color>
+    <color name="dario3_t3">#ff9637</color>
+    <color name="dario3_t4">#bccdd3</color>
+    <color name="dario3_t5">#181818</color>
+    <color name="dario3_t6">#676767</color>
+    <color name="dario3_t7">#646d74</color>
+    <color name="dario3_t8">#ffc89c</color>
+    <color name="dario3_t9">#dadada</color>
+    <color name="dario3_t10">#929292</color>
+    <color name="dario3_t11">#9babb1</color>
+    <color name="dario3_t12">#5d6870</color>
+    <color name="dario3_t13">#b7c4cf</color>
+    <color name="dario3_t14">#8ca7bf</color>
+    <color name="dario3_t15">#b7bbbf</color>
+    <color name="dario3_t16">#aad006</color>
+    <color name="dario3_t17">#7d8d94</color>
+    <color name="dario3_t18">#6a4f6b</color>
+    <color name="dario3_t19">#e84f35</color>
+    <color name="dario3_t20">#afbcc1</color>
+    <color name="dario3_t21">#c3c9ce</color>
+    <color name="dario3_t22">#ffffff</color>
+    <color name="dario3_t23">#3f484f</color>
+    <color name="dario3_t24">#9ac5e6</color>
+
+</resources>
